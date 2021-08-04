@@ -3,6 +3,18 @@
 This package read data from LDES and generates translations for object discriptions based on available data via linked authorities such as Getty AAT, ULAN and TGN. 
 
 ## USE 
+
+### dependencies
+before running this program make sure to install the following packages:
+
+```
+pip3 install skosprovider_getty
+pip3 install pandas
+pip3 install regex
+```
+
+to use the program enter the following commands in the CLI. 
+
 ```
 python3 ldes_translator.py --path --list
 ```
